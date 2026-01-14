@@ -1,7 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter, FaExternalLinkAlt, FaCode, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import profileImage from "../assets/profile.jpg";
 
 export default function Home() {
   const [hoveredProject, setHoveredProject] = useState(null);
@@ -363,7 +362,7 @@ export default function Home() {
                 whileHover={{ scale: 1.02 }}
                 className="relative rounded-3xl overflow-hidden h-[300px] md:h-[500px] shadow-2xl"
                 style={{
-                  backgroundImage: `url(${profileImage})`,
+                  backgroundImage: `url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=800&h=1000&fit=crop)`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
                 }}>
