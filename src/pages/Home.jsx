@@ -362,7 +362,7 @@ export default function Home() {
                 whileHover={{ scale: 1.02 }}
                 className="relative rounded-3xl overflow-hidden h-[300px] md:h-[500px] shadow-2xl"
                 style={{
-                  backgroundImage: `url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=800&h=1000&fit=crop)`,
+                  backgroundImage: `url(/Profile.jpg)`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
                 }}>
