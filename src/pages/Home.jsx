@@ -151,7 +151,7 @@ export default function Home() {
 
             {/* View Resume Button */}
             <a
-              href="/Suraj_Kumar_Resume.pdf"
+              href="/Suraj cv_.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 px-4 py-2 rounded-full bg-red-600 text-white font-semibold text-xs whitespace-nowrap"
@@ -280,7 +280,7 @@ export default function Home() {
               <motion.a
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 50px rgba(220,38,38,0.5)" }}
                 whileTap={{ scale: 0.95 }}
-                href="/Suraj_Kumar_Resume.pdf"
+                href="/Suraj cv_.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-4 rounded-full bg-gradient-to-r from-red-600 to-red-700 text-white font-bold text-lg shadow-lg shadow-red-600/30 border-2 border-red-400/50"
